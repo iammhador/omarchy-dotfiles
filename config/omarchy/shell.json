@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "idle": {
+    "screensaver": 150,
+    "lock": 300
+  },
+  "bar": {
+    "position": "top",
+    "transparent": false,
+    "centerAnchor": "omarchy.clock",
+    "layout": {
+      "left": [
+        {
+          "id": "tornikegomareli.spaces"
+        },
+        {
+          "id": "omarchy.menu"
+        },
+        {
+          "id": "jobo.field-notes"
+        },
+        {
+          "id": "io.github.gashiartim.devpulse"
+        }
+      ],
+      "center": [
+        {
+          "id": "omarchy.indicators"
+        },
+        {
+          "id": "omarchy.keyboard-layout"
+        },
+        {
+          "id": "omarchy.weather"
+        },
+        {
+          "id": "io.github.iammhador.spotify-pulse"
+        },
+        {
+          "id": "omarchy.clock",
+          "showYearProgress": false,
+          "agendaPlacement": "beside",
+          "showNextUp": true,
+          "showQuickAdd": true,
+          "showShortcutLegend": true,
+          "showUpcomingDays": true,
+          "language": "en",
+          "format": "ddd d MMM h:mm AP"
+        },
+        {
+          "id": "omarchy.spacer"
+        },
+        {
+          "id": "omarchy.system-update"
+        }
+      ],
+      "right": [
+        {
+          "id": "omarchy.tray"
+        },
+        {
+          "id": "paudelsamir.newsdash",
+          "setupDone": "true"
+        },
+        {
+          "id": "jankeesvw.notification-center"
+        },
+        {
+          "id": "bredda.localsend"
+        },
+        {
+          "id": "harshith.system-monitor",
+          "barMode": "Memory"
+        },
+        {
+          "id": "omarchy.agents"
+        },
+        {
+          "id": "omarchy.bluetooth"
+        },
+        {
+          "id": "omarchy.network"
+        },
+        {
+          "id": "omarchy.audio"
+        },
+        {
+          "id": "omarchy.monitor"
+        },
+        {
+          "id": "omarchy.power"
+        }
+      ]
+    }
+  },
+  "plugins": [
+    {
+      "id": "io.github.tallsam.navbar-cat"
+    },
+    {
+      "id": "io.github.iammhador.mic-pulse"
+    }
+  ],
+  "disabledPlugins": [
+    "omarchy.notifications"
+  ]
+}

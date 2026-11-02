@@ -1,0 +1,10 @@
+brscan5
+fortune-mod-off
+google-cloud-cli
+ngrok
+obs-backgroundremoval
+protonup-qt
+spicetify-cli
+termius
+vesktop
+whatsie-git
